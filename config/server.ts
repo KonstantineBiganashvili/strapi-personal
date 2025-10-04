@@ -4,7 +4,7 @@ export default ({ env }) => ({
 	app: {
 		keys: env.array('APP_KEYS'),
 	},
-	proxy: { fetch: false },
+	proxy: true,
 	logger: {
 		updates: {
 			enabled: false,
