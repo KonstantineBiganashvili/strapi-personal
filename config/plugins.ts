@@ -6,6 +6,7 @@ module.exports = ({ env }) => {
 
 	if (env('NODE_ENV') === 'production') {
 		serviceAccount = JSON.parse(env('GCP_SERVICE_ACCOUNT_JSON'));
+		console.log('✅ GCS service account loaded successfully from env');
 	} else {
 		const keyPath = path.join(
 			process.cwd(),

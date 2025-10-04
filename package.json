@@ -13,9 +13,7 @@
 		"start": "strapi start",
 		"strapi": "strapi",
 		"upgrade": "npx @strapi/upgrade latest",
-		"upgrade:dry": "npx @strapi/upgrade latest --dry",
-		"deploy:build": "docker build -t biganashvili-cms .",
-		"deploy:test": "docker run -p 1337:1337 --env-file .env biganashvili-cms"
+		"upgrade:dry": "npx @strapi/upgrade latest --dry"
 	},
 	"dependencies": {
 		"@strapi-community/strapi-provider-upload-google-cloud-storage": "^5.0.5",

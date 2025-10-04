@@ -1,0 +1,64 @@
+# Dependencies
+node_modules/
+
+# Environment and secrets
+.env
+.env.*
+gcs-key.json
+*.pem
+*.key
+*.crt
+
+# Git
+.git/
+.gitignore
+
+# Development
+.cache/
+.tmp/
+.strapi/
+build/
+*.cache
+
+# Database
+*.db
+data/
+
+# Logs
+logs/
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Documentation
+*.md
+!README.md
+
+# Docker
+Dockerfile
+.dockerignore
+
+# TypeScript source (we only need the built dist/)
+src/
+tsconfig.json
+*.tsbuildinfo
+types/
+
+# Public uploads (should be in GCS in production)
+public/uploads/
+
+# Scripts
+scripts/
+*.ps1
+*.sh
+
+# CI/CD
+.github/
+cloudbuild.yaml
+
