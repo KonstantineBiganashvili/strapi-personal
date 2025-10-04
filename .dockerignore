@@ -44,11 +44,8 @@ Thumbs.db
 Dockerfile
 .dockerignore
 
-# TypeScript source (we only need the built dist/)
-src/
-tsconfig.json
+# TypeScript build artifacts (but keep source for build stage)
 *.tsbuildinfo
-types/
 
 # Public uploads (should be in GCS in production)
 public/uploads/
